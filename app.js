@@ -17,12 +17,7 @@ mongoose.connect(DB)
 .catch((error)=>{
   console.log(error)
 })
-// Room.findByIdAndUpdate("6634a7a08857c37d32498c6b",{
-//   "name":"1234"
-// })
-//   .then(()=>{
-//     console.log("刪除成功")
-//   })
+
 //實例 實體 instance
 const requestListener = async (req,res)=>{
   let body = ""
